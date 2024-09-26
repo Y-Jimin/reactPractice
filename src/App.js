@@ -13,6 +13,8 @@ function App() {
     <div className="App">
       <div className="header">
         <h4>블로그임</h4>
+
+        <h2>블로그</h2>
       </div>
       <h4 style={{background: "yellow", color: "red"}}>{post}</h4>
 
