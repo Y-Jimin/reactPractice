@@ -7,6 +7,30 @@
   pointer-events: none;
 }
 
+div {
+  box-sizing: border-box;
+}
+.list {
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  background: #eee;
+  text-align: left;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
